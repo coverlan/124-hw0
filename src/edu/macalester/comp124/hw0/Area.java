@@ -1,4 +1,5 @@
 package edu.macalester.comp124.hw0;
+import java.lang.Math;
 
 /**
  * @author Shilad Sen
@@ -10,8 +11,8 @@ public class Area {
      * @return The area
      */
     public static double getSquareArea(double sideLength) {
-        // TODO: replace me with the correct formula
-        return sideLength * 1.0 * 42 +13;
+        // int area =sideLength * sideLength
+        return sideLength * sideLength;
     }
 
     /**
@@ -20,8 +21,8 @@ public class Area {
      * @return The area
      */
     public static double getCircleArea(double radius) {
-        // TODO: replace me with the correct formula
-        return radius * 1.0;
+        // int area =MATH.PI * r * r
+        return radius * radius * Math.PI;
     }
 
 }
